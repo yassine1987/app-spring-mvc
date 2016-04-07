@@ -8,6 +8,7 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
 	<!-- DispatcherServlet Context: defines this servlet's request-processing infrastructure -->
+	<view-controller path="/html5.html" view-name="/html5/html5" />
 	
 	<!-- Enables the Spring MVC @Controller programming model -->
 	<annotation-driven />
@@ -21,8 +22,8 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
-	<context:component-scan base-package="com.yassine.spring" />
-	
+	<!-- <context:component-scan base-package="com.yassine.spring" /> -->
+	<context:component-scan base-package="spring.mvc.controller" />
 	
 	
 </beans:beans>
