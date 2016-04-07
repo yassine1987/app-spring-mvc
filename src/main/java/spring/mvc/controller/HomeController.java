@@ -1,4 +1,4 @@
-package com.yassine.spring;
+package spring.mvc.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
